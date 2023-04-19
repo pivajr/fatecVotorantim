@@ -1,5 +1,4 @@
-numeros = [0]*11
-print(numeros)
+numeros = [0]*10
 indice = 0
 qtd = 0
 x = 101
@@ -11,13 +10,9 @@ while qtd < 10:
             div = div + 1
     if div == 1:
         primo = True
-
-
     if primo:
         numeros[indice] = x
         indice = indice + 1
         qtd = qtd + 1
-
     x = x + 1
-
 print(numeros)
