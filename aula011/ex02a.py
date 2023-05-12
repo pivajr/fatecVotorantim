@@ -3,7 +3,6 @@ for i in range(5):
     nome = input(f"Entre com o {i+1}o. nome: ")
     idade = int(input(f"Entre com a {i+1}a. idade: "))
     dic[nome] = idade
-
 soma = 0
 for idade in dic.values():
     soma += idade
