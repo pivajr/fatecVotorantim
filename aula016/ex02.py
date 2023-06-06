@@ -10,7 +10,7 @@ menorConsumo = 0
 for i in range(0, 5):
     custo = 1000 / consumo[i]
     gasto = custo * preco
-    print(f'{i+1} - {veiculos[i]} - {consumo[i]:.2f} - {custo:.1f} litros - R$ {consumo[menorConsumo]:.2f}')
+    print(f'{i+1} - {veiculos[i]:10} - {consumo[i]:6.2f} - {custo:6.1f} litros - R$ {gasto:6.2f}')
     if (consumo[i] > consumo[menorConsumo]):
         menorConsumo = i
 print(f"O menor consumo eh do {veiculos[menorConsumo]}")
